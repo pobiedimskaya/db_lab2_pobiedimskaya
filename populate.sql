@@ -45,18 +45,18 @@ VALUES(201, 2020, 301, 101);
 INSERT INTO Houses(house_id, year_built, neighborhood_id, sale_id)
 VALUES(202, 2010, 301, 102);
 INSERT INTO Houses(house_id, year_built, neighborhood_id, sale_id)
-VALUES(203, 2010, 301, 103);
+VALUES(203, 2010, 302, 103);
 INSERT INTO Houses(house_id, year_built, neighborhood_id, sale_id)
-VALUES(204, 2012, 301, 104);
+VALUES(204, 2012, 303, 104);
 INSERT INTO Houses(house_id, year_built, neighborhood_id, sale_id)
-VALUES(205, 2013, 301, 105);
+VALUES(205, 2013, 303, 105);
 INSERT INTO Houses(house_id, year_built, neighborhood_id, sale_id)
-VALUES(201, 2011, 301, 101);
+VALUES(206, 2011, 303, 101);
 INSERT INTO Houses(house_id, year_built, neighborhood_id, sale_id)
-VALUES(202, 2012, 301, 102);
+VALUES(207, 2012, 304, 102);
 INSERT INTO Houses(house_id, year_built, neighborhood_id, sale_id)
-VALUES(203, 2010, 301, 103);
+VALUES(208, 2010, 304, 103);
 INSERT INTO Houses(house_id, year_built, neighborhood_id, sale_id)
-VALUES(204, 2010, 301, 104);
+VALUES(209, 2010, 305, 104);
 INSERT INTO Houses(house_id, year_built, neighborhood_id, sale_id)
-VALUES(205, 2015, 301, 105);
+VALUES(210, 2015, 305, 105);
