@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-11-15T20:01:22.569Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="uINIrxsbFCMK-QCAe1J0" version="15.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-11-15T20:04:01.338Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36" etag="vxAoIGEGbWFezO6FRqYS" version="15.7.4" type="github">
   <diagram id="vaMXSuiqMyZ-iNdI_eU6" name="ERD">
     <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -28,7 +28,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qhAAkJehZXl6k8fvEaq_-7" value="year" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="qhAAkJehZXl6k8fvEaq_-5">
+        <mxCell id="qhAAkJehZXl6k8fvEaq_-7" value="year_built" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="qhAAkJehZXl6k8fvEaq_-5">
           <mxGeometry x="30" width="150" height="30" as="geometry">
             <mxRectangle width="150" height="30" as="alternateBounds" />
           </mxGeometry>
