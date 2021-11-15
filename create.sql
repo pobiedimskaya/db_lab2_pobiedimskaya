@@ -1,8 +1,7 @@
 CREATE TABLE Sales
 (
     sale_id      int    NOT NULL,
-    sale_price   int    NOT NULL,
-	house_id     int    NOT NULL
+    sale_price   int    NOT NULL
 );
 
 CREATE TABLE Houses
