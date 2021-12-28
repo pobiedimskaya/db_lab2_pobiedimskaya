@@ -1,15 +1,15 @@
 CREATE TABLE Sales
 (
     sale_id      int    NOT NULL,
-    sale_price   int    NOT NULL
+    sale_price   int    NOT NULL,
+    house_id     int    NOT NULL,
 );
 
 CREATE TABLE Houses
 (
     house_id     int     NOT NULL,	
     year_built   int     NOT NULL,
-	neighborhood_id int  NOT NULL,
-	sale_id      int     NOT NULL
+    neighborhood_id int  NOT NULL
 );
 
 CREATE TABLE Neighborhoods
@@ -28,7 +28,7 @@ ALTER TABLE Neighborhoods ADD CONSTRAINT PK_Neighborhoods PRIMARY KEY (neighborh
 ----------------------
 -- Define foreign keys
 ----------------------
-ALTER TABLE Houses
-ADD CONSTRAINT FK_Houses_Sales FOREIGN KEY (sale_id) REFERENCES Sales (sale_id);
+ALTER TABLE Sales
+ADD CONSTRAINT FK_Houses_Sales FOREIGN KEY (sale_id) REFERENCES Houses (house_id);
 ALTER TABLE Houses
 ADD CONSTRAINT FK_Houses_Neighborhoods FOREIGN KEY (neighborhood_id) REFERENCES Neighborhoods (neighborhood_id);
